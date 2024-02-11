@@ -1,0 +1,390 @@
+/* start of global property */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 16px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    color: black
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/* end of global property */
+
+/* start css of navbar*/
+
+#navbar{
+    background-color: black;
+}
+
+#navbar .container .photo_navbar{
+    width: 30%;
+    float: left;
+}
+
+#navbar .container .photo_navbar img{
+    width: 100%;
+}
+
+#navbar .container .text_navbar{
+    width: 70%;
+    float: left;
+}
+
+#navbar .container .text_navbar ul {
+    list-style: none;
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+#navbar .container .text_navbar ul li{
+    float: left;
+    padding-right: 15px;
+}
+
+#navbar .container .text_navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* end css of navbar */
+
+/* start css of home */
+
+    #home{
+        overflow: auto;
+        background-image: url(./images/drew-coffman-1872.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #home .container .headHome{
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+    }
+    #home .container .headHome p{
+        margin-bottom: 60px;
+        font-size: 30px;
+    }
+
+    #home .container .headHome h1{
+         margin-bottom: 50px;
+         font-size: 80px;
+    }
+
+    #home .container .headHome button{
+        width: 160px;
+        height:40px;
+        border-radius: 30px;
+        border: 1px rgba(255, 255, 255, 0) solid ;
+        font-size: 16px;
+        background-color: beige;
+   }
+   /* end css of home */
+
+   /* start css of brief */
+   #brief{
+    padding: 60px;
+    background-color: rgb(224, 201, 201);
+   }
+   #brief .container .photo_brief{
+    width: 49.5%;
+    display: inline-block;
+    padding-right: 30px;
+   }
+
+   #brief .container .photo_brief img{
+    width: 100%;
+   }
+   #brief .container .text_brief{
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: top;
+   }
+   #brief .container .text_brief h2{
+    margin-bottom: 20px;
+   }
+
+   #brief .container .text_brief p{
+    margin-bottom: 20px;
+   }
+   #brief .container .text_brief ul{
+    list-style: none;
+   }
+   #brief .container .text_brief ul li img{
+    width: 45px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+   }
+
+   #brief .container .text_brief ul li p{
+    display: inline-block;
+   }
+
+   /* end css of brief */
+
+   /* start of location */
+   #location{
+    padding: 60px;
+    background-color: rgb(224, 201, 201);
+   }
+   #location .container .text_location{
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 60px;
+   }
+
+   #location .container .text_location h2{
+    margin-bottom: 20px;
+   }
+
+   #location .container .text_location p{
+    line-height: 30px;
+   }
+
+
+   #location .container .photo_location{
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: middle;
+   }
+
+   #location .container .photo_location img{
+    width: 100%
+   }
+
+   /* end of location */
+
+   /* start of our baking */
+
+     #ourbaking{
+        padding: 60px;
+        background-color: rgb(224,201,201);
+     }
+
+     #ourbaking .container .headBaking {
+        text-align: center;
+     }
+
+     #ourbaking .container .headBaking h2{
+        padding-bottom: 10px;
+     }
+
+     #ourbaking .container .headBaking p{
+        padding-bottom: 10px;
+     }
+
+     #ourbaking .container .sectionOne {
+        width: 33.3%;
+        float: left;
+        padding: 10px;
+     }
+
+     #ourbaking .container .sectionOne img {
+     width: 100%;
+     }
+
+     #ourbaking .container .sectionTwo {
+        width: 33.3%;
+        float: left;
+        padding: 10px;
+     }
+
+     #ourbaking .container .sectionTwo img{
+        width: 100%;
+     }
+
+     #ourbaking .container .sectionThree {
+        width: 33.3%;
+        float: left;
+        padding: 10px;
+     }
+
+     #ourbaking .container .sectionThree img {
+     width: 100%;
+     }
+
+     /* end of our baking */
+     
+     /* start of footer */
+
+     #footer{
+        background-color: grey;
+        padding: 60px;
+     }
+
+     #footer .container .about_footer{
+        float: left;
+        width: 25%;
+        padding: 15px;
+     }
+
+     #footer .container .about_footer p{
+        margin-top: 15px;
+        font-size: 15px;
+        color: white;
+     }
+     
+
+     #footer .container .why_footer{
+        float: left;
+        width: 25%;
+        padding: 15px;
+     }
+
+     #footer .container .why_footer h3{
+        margin-bottom: 15px;
+     }
+
+     #footer .container .why_footer ul{
+        list-style: none;
+     }
+
+     #footer .container .why_footer ul li{
+        border-bottom: 1px white solid;
+        padding: 10px;
+     }
+
+     #footer .container .why_footer ul li .pic{
+        width: 10%;
+        float: left;
+     }
+
+     #footer .container .why_footer ul li p{
+        width: 90%;
+        float: left;
+        font-size: 15px;
+        color: white;
+     }
+
+     #footer .container .why_footer ul li .pic img{
+        width: 100%;
+     }
+
+     #footer .container .opening_footer{
+        float: left;
+        width: 25%;
+        padding: 15px;
+     }
+
+     #footer .container .opening_footer h3{
+        margin-bottom: 15px;
+     }
+     
+     #footer .container .opening_footer ul{
+        list-style: none;
+     }
+
+     #footer .container .opening_footer ul li{
+        border-bottom: 1px white solid;
+        padding: 10px;
+     }
+
+     #footer .container .opening_footer ul .pictwo{
+        width: 10%;
+        float: left;
+     }
+
+     #footer .container .opening_footer ul .pictwo img{
+        width: 100%;
+     }
+
+     #footer .container .opening_footer ul p{
+        width: 90%;
+        float: left;
+        color: white;
+    }
+    
+     #footer .container .contact_footer{
+        float: left;
+        width: 25%;
+        background-image: url(./images/contact-details-map.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        padding: 15px;
+     }
+
+     #footer .container .contact_footer h3{
+       margin-bottom: 15px;
+     }
+
+     #footer .container .contact_footer ul{
+        list-style: none;
+     }
+
+     #footer .container .contact_footer ul li{
+        border-bottom: 1px white solid;
+        padding: 10px;
+     }
+
+     #footer .container .contact_footer ul .picthree{
+        width:15%;
+        float:left
+     }
+
+     #footer .container .contact_footer ul .picthree img{
+        width: 100%;
+     }
+
+     #footer .container .contact_footer ul p{
+        width: 85%;
+        float: left;
+        color: white;
+     }
+
+     /* end of footer */
+
+     /* start of footer two */
+
+     #footertwo{
+        background-color: black;
+        padding: 20px;
+     }
+
+     #footertwo .container .photo{
+        width: 30%;
+        margin: auto;
+     }
+     
+     #footertwo .container .photo img{
+        width: 100%;
+     }
+
+     #footertwo .container p{
+        color: white;
+        text-align: center;
+        margin: 15px 0;
+     }
+
+     #footertwo .container .lista{
+        text-align: center;
+     }
+     #footertwo .container .lista img{
+        width: 5%;
+     }
+
+     /* end of footer two */
